@@ -1,0 +1,25 @@
+Boomerang(^)
+Moves two squared forward until it hits the end of the level then moves two squared backward until the start the begins again
+Does not move if there is a piece where it would move to
+Hits the squares directly in front and behind it
+
+CoinPiece(o):
+Does not move
+Awards a point when the player moves on top of it
+
+FlagPole($):
+Does not move
+Advances the player when the player moves on it
+
+MudPuddle(8):
+Does not move
+Does not implement GamePiece
+Does not interact
+
+SpikePiece(#):
+Does not move 
+Kills when the player moves on it
+
+UfoPiece(@):
+Moves to a random unoccupied square
+Kills the player if they are 2 squares away
